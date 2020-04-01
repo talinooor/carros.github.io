@@ -1,0 +1,171 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+ul{
+    padding: 0px!important;
+}
+.menu-principal {
+    width: 100%;
+    background-color: rgba(7, 7, 7, 0.774);
+    height: 75px;
+}
+main, .content {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+.logo {
+    float: left;
+    padding: 15px;
+    width: 70%;
+}
+.container img {
+    width: 80px;
+    height: 72px;
+}
+.cor-2 {
+    width: 980px;
+    margin: 0 auto;
+    padding: 3px;
+}
+.menu-urls {
+    height: 60px;
+    border-bottom: 2px solid rgb(220, 228, 220);
+}
+.menu ul li {
+    display: inline-block;
+    color: cornflowerblue;
+    margin-left: 15px;
+    height: 40px;
+}
+.menu ul li:hover {
+    border-bottom: 3px solid rgb(38, 105, 107);
+}
+
+.menu ul li a:hover {
+    color: rgb(38, 105, 107);
+}
+
+.menu ul li a {
+    color: cornflowerblue;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.menu {
+    width: 70%;
+    float: left;
+}
+.busca {
+    text-align: center;
+    width: 30%;
+    float: right;
+}
+.busca input {
+    height: 30px;
+    padding: 12px;
+    width: 190px;
+    margin-top: 10px;
+    border: 1px solid cornflowerblue
+}
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+
+}
+
+button.slick-prev {
+    display: inline-block;
+    font-size: 0px;
+    border: none;
+}
+
+button.slick-next {
+    display: inline-block;
+    font-size: 0px;
+    border: none;
+}
+
+.slider-principal {
+    width: 100%!important;
+}
+
+.slick-initialized {
+    overflow: hidden;
+}
+.slick-dots li button {
+    font-size: 0px;
+    border: 5px solid cornsilk;
+    width: 26px;
+    height: 26px;
+    background-color: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 600px
+}
+
+li.slick-active button {
+    background-color: rgba(7, 7, 7, 0.774);
+
+}
+
+.slick-dots li {
+    padding-left: 10px;
+    display: inline-block;
+}
+
+.texto-destaque {
+    text-align: center;
+}
+.texto-destaque strong {
+    color: darkslategray;
+}
+
+.texto-destaque h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: darkgrey;
+
+}
+
+.texto-destaque p {
+    font-size: 15px;
+    color: crimson;
+
+}
+
+.col-3 {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 29%;
+    float: left;
+    position: relative;
+}
+
+.bloco-texto {
+    margin-top: 3em;
+}
+
+h3 {
+    font-weight: normal!important;
+}
+
+    
+
+.margin-left {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
